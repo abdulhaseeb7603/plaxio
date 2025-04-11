@@ -11,6 +11,7 @@ export interface Agent {
   category: string[];
   isOpenSource: boolean;
   github?: string;
+  githubStars?: number;
   twitter?: string;
   discord?: string;
   lastUpdated: string;
