@@ -28,7 +28,7 @@ export function HomePage() {
       setIsLoading(true);
       setError(null);
       try {
-        const response = await fetch('http://localhost:3001/api/agents');
+        const response = await fetch('https://plaxio-backend.vercel.app/api/agents');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

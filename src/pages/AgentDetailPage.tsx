@@ -37,7 +37,7 @@ export function AgentDetailPage() {
       setAgentData(null); // Reset previous agent data
 
       try {
-        const response = await fetch(`http://localhost:3001/api/agents/${id}`); // Fetch from backend
+        const response = await fetch(`https://plaxio-backend.vercel.app/api/agents/${id}`); // Fetch from backend
         if (!response.ok) {
           if (response.status === 404) {
             throw new Error('Agent not found or not approved.');

@@ -44,7 +44,7 @@ export function SubmitPage() {
     }
 
     try {
-        const response = await fetch('http://localhost:3001/api/submit-agent', { // Use your backend endpoint
+        const response = await fetch('https://plaxio-backend.vercel.app/api/submit-agent', { // Use your backend endpoint
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
