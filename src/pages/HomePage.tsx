@@ -79,7 +79,7 @@ export function HomePage() {
       <Header onSearch={setSearchTerm} />
       
       <main className="max-w-7xl mx-auto py-8">
-        <div className="text-center px-4 sm:px-6 lg:px-8">
+        <div className="text-center px-4 sm:px-6 lg:px-8 mt-12">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
           Supercharge Your AI with {''}
             <span className="inline-block bg-blue-600 text-white dark:bg-white dark:text-black px-2 py-1 rounded transform rotate-2">
@@ -89,24 +89,10 @@ export function HomePage() {
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
              Handpicked MCP servers to boost your AI agents with tools and data.
           </p>
-          <div className="mt-4 flex justify-center">
-            <a 
-              href="https://www.producthunt.com/posts/github-915ffd46-5c12-48c9-a233-96c8c7710ce0?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-github&#0045;915ffd46&#0045;5c12&#0045;48c9&#0045;a233&#0045;96c8c7710ce0" 
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img 
-                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=560712&theme=light" 
-                alt="GitHub - Dambrubaba/directory-boilerplate | Product Hunt" 
-                style={{ width: '250px', height: '54px' }}
-                width="250" 
-                height="54" 
-              />
-            </a>
-          </div>
+         
         </div>
 
-        <div className="flex flex-wrap gap-2 py-4 px-4 sm:px-6 lg:px-8 justify-center">
+        <div className="flex flex-wrap gap-2 py-4 px-4 sm:px-6 lg:px-8 justify-center ">
           <button
             onClick={() => setSelectedCategory(null)}
             className={`
